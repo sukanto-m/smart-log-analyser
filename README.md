@@ -6,9 +6,16 @@ A Python-based log analyzer that uses local LLM (Llama 3.2) to explain the error
 - Totally local, no API, no cloud
 - CLI operation (with TUI support planned)
 - Detects ERROR, FATAL, Exception, and CRITICAL keywords
-- Individual error analysis
+- Individual error analysis with LLM explanations
+- **Severity rating** for each error (LOW/MEDIUM/HIGH/CRITICAL)
+- **Color-coded output** in terminal based on severity
+- **Automatic report generation** saved to `log_analysis_report.txt`
 - Overall summary of all errors
 
+## Output
+The tool generates:
+- Colored terminal output with individual error analyses
+- `log_analysis_report.txt` - A formatted text report with all findings
 
 ## Requirements
 - Python 3.8 or above
@@ -39,4 +46,4 @@ A Python-based log analyzer that uses local LLM (Llama 3.2) to explain the error
 python3 analyser.py test.log
 
 ## Example
-![screenshot](screenshot.png)
+![screenshot](s1png)
