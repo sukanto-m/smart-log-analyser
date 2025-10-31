@@ -46,4 +46,4 @@ The tool generates:
 python3 analyser.py test.log
 
 ## Example
-![screenshot](s1png)
+![screenshot](s1.png)
