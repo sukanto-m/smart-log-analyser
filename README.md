@@ -39,4 +39,4 @@ A Python-based log analyzer that uses local LLM (Llama 3.2) to explain the error
 python3 analyser.py test.log
 
 ## Example
-[screenshot](!screenshot.png)
+![screenshot](screenshot.png)
