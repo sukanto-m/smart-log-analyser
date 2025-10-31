@@ -1,0 +1,5 @@
+2024-10-31 10:23:45 INFO Application started
+2024-10-31 10:23:46 ERROR Failed to connect to database: Connection timeout
+2024-10-31 10:23:50 INFO Retrying connection...
+2024-10-31 10:23:51 FATAL Database unavailable after 3 retries
+2024-10-31 10:24:00 Exception in thread "main" java.lang.NullPointerException
